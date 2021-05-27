@@ -1,13 +1,5 @@
-<p align="center">
-  <img src="AliceMind-logo.png" width="450">
-  <br />
-  <br />
-  <a href="https://github.com/pytorch/fairseq/releases"><img alt="Latest Release" src="https://img.shields.io/github/release/pytorch/fairseq.svg" /></a>
-  <a href="https://github.com/pytorch/fairseq/actions?query=workflow:build"><img alt="Build Status" src="https://github.com/pytorch/fairseq/workflows/build/badge.svg" /></a>
-</p>
---------------------------------------------------------------------------------
-
-# AliceMind: ALIbaba's Collection of Encoder-decoders from MinD (Machine IntelligeNce of Damo) Lab
+# AliceMind
+## ALIbaba's Collection of Encoder-decoders from MinD (Machine IntelligeNce of Damo) Lab
 This repository provides pre-trained encoder-decoder models and its related optimization techniques developed by Alibaba's MinD (Machine IntelligeNce of Damo) Lab.
 
 The family of AliceMind:
