@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/hebian.ww/distributed-nlp/bert/src/save_model/roberta/roberta_large_0816"
+all_model_checkpoint_paths: "/home/hebian.ww/distributed-nlp/bert/src/save_model/roberta/roberta_large_0816"

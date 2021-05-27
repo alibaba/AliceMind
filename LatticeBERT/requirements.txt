@@ -1,0 +1,4 @@
+tensorflow == 1.14.0
+tokenizers==0.8.0
+igraph
+pygtrie
