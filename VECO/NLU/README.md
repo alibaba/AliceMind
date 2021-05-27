@@ -10,7 +10,7 @@ This repository contains fine-tune code of NLU tasks on VECO, and the code base 
 
 Model | Description | # Params | Download
 ---|---|---|---
-`veco_large` | VECO model with 24 encoder layers trained on 50 languages' monolingual and bilingual corpus | 550M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLU/model/xtreme-released-veco.tar.gz)
+`VECO_large` | VECO model with 24 encoder layers trained on 50 languages' monolingual and bilingual corpus | 550M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLU/model/xtreme-released-veco.tar.gz)
 
 
 # Download the data
@@ -56,7 +56,7 @@ The results of XNLI, XQuAD and Tatoeba task can be reproduced using the default 
 
 |Model| XNLI<br>(Acc) | XQuAD<br>(F1/EM) | Tatoeba<br>(Acc) |
 |--------------------|-------|-------|-------|
-|veco.large | 79.9 | 77.5/61.9 | 75.1 |
+|`VECO_large` | 79.9 | 77.5/61.9 | 75.1 |
 
 # Paper
 
