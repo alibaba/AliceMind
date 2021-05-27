@@ -22,14 +22,14 @@ and English-to-French translation datasets, with gains of up to 1∼2 BLEU.
 
 Model | Description | # Params | Download
 ---|---|---|---
-`veco_large` | VECO model with 24 encoder layers trained on 50 languages' monolingual and bilingual corpus | 550M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLU/model/xtreme-released-veco.tar.gz)
+`VECO_large` | VECO model with 24 encoder layers trained on 50 languages' monolingual and bilingual corpus | 550M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLU/model/xtreme-released-veco.tar.gz)
 
 
 ### Pre-trained models for Multilingual NLG tasks
 
 Model | Description | # Params | Download
 ---|---|---|---
-`veco_large` | VECO model with 24 encoder and decoder layers trained on 50 languages' monolingual and bilingual corpus | 660M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/model/veco-large.tar.gz)
+`VECO_large` | VECO model with 24 encoder and decoder layers trained on 50 languages' monolingual and bilingual corpus | 660M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/model/veco-large.tar.gz)
 
 
 ## Results
@@ -42,7 +42,7 @@ The results of XNLI, XQuAD and Tatoeba task can be reproduced using the default 
 
 |Model| XNLI<br>(Acc) | XQuAD<br>(F1/EM) | Tatoeba<br>(Acc) |
 |--------------------|-------|-------|-------|
-|veco.large | 79.9 | 77.5/61.9 | 75.1 |
+| `VECO_large` | 79.9 | 77.5/61.9 | 75.1 |
 
 ### Results of Multilingual NLG tasks 
 
@@ -52,7 +52,7 @@ Model |  WMT14 En-Fr<br>tok/detok-BLEU | WMT14 En-De<br>tok/detok-BLEU
 ---|---|---
 `XLM-R (24 encoder + 6 decoder)` | 43.7/41.1 | 30.8/29.9
 `mBART (12 encoder + 12 decoder)` | 43.2/41.0 | 30.0/29.1
-`VECO (24 encoder + 6 decoder)` | 44.4/42.0 | 31.5/30.5 
+`VECO_large (24 encoder + 6 decoder)` | 44.4/42.0 | 31.5/30.5 
 
 
 ## Finetuning
