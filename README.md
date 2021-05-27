@@ -1,5 +1,5 @@
 # AliceMind
-## ALIbaba's Collection of Encoder-decoders from MinD (Machine IntelligeNce of Damo) Lab
+#### AliceMind: ALIbaba's Collection of Encoder-decoders from MinD (Machine IntelligeNce of Damo) Lab
 This repository provides pre-trained encoder-decoder models and its related optimization techniques developed by Alibaba's MinD (Machine IntelligeNce of Damo) Lab.
 
 The family of AliceMind:
