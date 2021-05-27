@@ -40,7 +40,7 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 
 Model | Description | # Params | Download
 ---|---|---|---
-`veco_large` | VECO model with 24 encoder and decoder layers trained on 50 languages' monolingual and bilingual corpus | 660M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/model/veco-large.tar.gz)
+`VECO_large` | VECO model with 24 encoder and decoder layers trained on 50 languages' monolingual and bilingual corpus | 660M | [veco-large.tar.gz](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/model/veco-large.tar.gz)
 
 
 Download VECO model and save to your path `VECO_MODEL_PATH`
@@ -53,8 +53,8 @@ The following instructions can be used to fine-tune a VECO model on the WMT14 En
 ## Step 1: Preprocess data
 
 You can directly download the preprocessed data via the following urls:
-- WMT14 En-Fr [Download](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_de.tar.gz)
-- WMT14 En-De [Download](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_fr.tar.gz)
+- WMT14 En-Fr: [Download data](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_de.tar.gz)
+- WMT14 En-De: [Download data](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_fr.tar.gz)
 
 We also provide the bash scripts to download and preprocess the data:
  
@@ -111,7 +111,7 @@ Model |  WMT14 En-Fr<br>tok/detok-BLEU | WMT14 En-De<br>tok/detok-BLEU
 ---|---|---
 `XLM-R (24 encoder + 6 decoder)` | 43.7/41.1 | 30.8/29.9
 `mBART (12 encoder + 12 decoder)` | 43.2/41.0 | 30.0/29.1
-`VECO (24 encoder + 6 decoder)` | 44.4/42.0 | 31.5/30.5 
+`VECO_large (24 encoder + 6 decoder)` | 44.4/42.0 | 31.5/30.5 
 
 # License
 
