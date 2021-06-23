@@ -3,7 +3,7 @@
 
 ## News
 - May, 2021: [VECO](https://arxiv.org/abs/2010.16046) was accepted by ACL 2021.
-- Mar, 2021: VECO ranks first at the [XTREME](https://sites.research.google/xtreme/) leaderboard.
+- Mar, 2021: VECO ranked first at the [XTREME](https://sites.research.google/xtreme/) leaderboard.
 
 ## Introduction
 
