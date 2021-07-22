@@ -53,8 +53,8 @@ The following instructions can be used to fine-tune a VECO model on the WMT14 En
 ## Step 1: Preprocess data
 
 You can directly download the preprocessed data via the following urls:
-- WMT14 En-Fr: [Download data](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_de.tar.gz)
-- WMT14 En-De: [Download data](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_fr.tar.gz)
+- WMT14 En-De: [Download data](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_de.tar.gz)
+- WMT14 En-Fr: [Download data](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/VECO/NLG/data/wmt14.en_fr.tar.gz)
 
 We also provide the bash scripts to download and preprocess the data:
  
