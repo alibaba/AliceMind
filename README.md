@@ -9,10 +9,12 @@ The family of AliceMind:
 * Cross-modal language model: [StructVBERT](StructVBERT/StructVBERT-talk.pdf) (```CVPR 2020 VQA Challenge Runner-up```)
 * Structural language model: [StructuralLM](https://arxiv.org/abs/2105.11210) (```ACL 2021```)
 * Chinese language understanding model with multi-granularity inputs: [LatticeBERT](https://arxiv.org/abs/2104.07204) (```NAACL 2021```)
+* Pre-training table model: [SDCUP]() (```Under Review```)
 
 ## News
 - March, 2021: AliceMind released!
 - May, 2021: [VECO](https://arxiv.org/abs/2010.16046) and [StructuralLM](https://arxiv.org/abs/2105.11210) were accepted by ACL 2021.
+- September, 2021: The first Chinese pre-training table model [SDCUP](https://arxiv.org/abs/2103.04399) released!
 
 ## Models
 - [**StructBERT**](StructBERT) (March 15, 2021): pre-trained models for **natural language understanding (NLU)**. We extend BERT to a new model, StructBERT, by incorporating language structures into pre-training. Specifically, we pre-train StructBERT with two auxiliary tasks to make the most of the sequential order of words and sentences, which leverage language structures at the word and sentence levels, respectively. "[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)" (```ICLR 2020```)
@@ -25,6 +27,8 @@ The family of AliceMind:
 
 - [**StructuralLM**](StructuralLM) (March 15, 2021): pre-trained models for **document-image understanding**. We propose a new pre-training approach, StructuralLM, to jointly leverage cell and layout information from scanned documents. The pre-trained StructuralLM achieves new state-of-the-art results in different types of downstream tasks. "[StructuralLM: Structural Pre-training for Form Understanding](https://arxiv.org/abs/2105.11210)" (```ACL 2021```)
 - [**LatticeBERT**](LatticeBERT) (March 15, 2021): we propose a novel pre-training paradigm for Chinese — Lattice-BERT which explicitly incorporates word representations with those of characters, thus can model a sentence in a multi-granularity manner. "[Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models](https://arxiv.org/abs/2104.07204)" (`NAACL 2021`)
+
+- [**SDCUP**](SDCUP) (September 6, 2021): pre-trained models for **table understanding**. We design a schema dependency pre-training objective to impose the desired inductive bias into the learned representations for table pre-training. We further propose a schema-aware curriculum learning approach to alleviate the impact of noise and learn effectively from the pre-training data in an easy-to-hard manner. The experiment results on SQUALL and Spider demonstrate the effectiveness of our pre-training objective and curriculum in comparison to a variety of baselines. "[SDCUP: Schema Dependency Enhanced Curriculum Pre-Training for Table Semantic Parsing]()" (```Under Review```) 
 
 ## Contact Information
 [AliceMind Official Website](https://nlp.aliyun.com/portal#/alice) 
