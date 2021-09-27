@@ -9,7 +9,7 @@ The family of AliceMind:
 * Cross-modal language model: [StructVBERT](StructVBERT/StructVBERT-talk.pdf) (```CVPR 2020 VQA Challenge Runner-up```)
 * Structural language model: [StructuralLM](https://arxiv.org/abs/2105.11210) (```ACL 2021```)
 * Chinese language understanding model with multi-granularity inputs: [LatticeBERT](https://arxiv.org/abs/2104.07204) (```NAACL 2021```)
-* Pre-training table model: [SDCUP]() (```Under Review```)
+* Pre-training table model: [SDCUP](https://github.com/alibaba/AliceMind/tree/main/SDCUP) (```Under Review```)
 
 ## News
 - March, 2021: AliceMind released!
