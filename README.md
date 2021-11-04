@@ -32,6 +32,7 @@ The family of AliceMind:
 
 ## Contact Information
 [AliceMind Official Website](https://nlp.aliyun.com/portal#/alice) 
+[AliceMind Platform](https://alicemind.aliyuncs.com/#/home)
 
 Please submit a GitHub issue if you have want help or have issues using ALICE.
 
