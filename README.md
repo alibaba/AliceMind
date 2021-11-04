@@ -31,8 +31,9 @@ The family of AliceMind:
 - [**SDCUP**](SDCUP) (September 6, 2021): pre-trained models for **table understanding**. We design a schema dependency pre-training objective to impose the desired inductive bias into the learned representations for table pre-training. We further propose a schema-aware curriculum learning approach to alleviate the impact of noise and learn effectively from the pre-training data in an easy-to-hard manner. The experiment results on SQUALL and Spider demonstrate the effectiveness of our pre-training objective and curriculum in comparison to a variety of baselines. "[SDCUP: Schema Dependency Enhanced Curriculum Pre-Training for Table Semantic Parsing]()" (```Under Review```) 
 
 ## Contact Information
-[AliceMind Official Website](https://nlp.aliyun.com/portal#/alice) 
-[AliceMind Platform](https://alicemind.aliyuncs.com/#/home)
+**AliceMind Official Website**: [https://nlp.aliyun.com/portal#/alice](https://nlp.aliyun.com/portal#/alice) 
+
+**AliceMind Open Platform**: [https://alicemind.aliyuncs.com](https://alicemind.aliyuncs.com/#/home)
 
 Please submit a GitHub issue if you have want help or have issues using ALICE.
 
