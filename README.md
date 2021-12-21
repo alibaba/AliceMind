@@ -43,7 +43,7 @@ propose a **straightforward yet effective fine-tuning technique**, ChildTuning, 
 
 ## Model Compression
 - [**ContrastivePruning**](ContrastivePruning) (December 17, 2021): 
-Contrastive-Pruning is a **general pruning framework under the pre-training and fine-tuning paradigm**, which aims at maintaining both task-specific and task-agnostic knowledge during pruning. CAP is designed as a general framework, compatible with both structured and unstructured pruning. Unified in contrastive learning, CAP encourage the pruned model to learn from the pre-trained model, the snapshots (intermediate models during pruning), and the fine-tuned model, respectively. “[From Dense to Sparse: Contrastive Pruning for Better Pre-trained Language Model Compression](#)" (```AAAI 2022```)
+ContrAstive Pruning (CAP) is a **general pruning framework under the pre-training and fine-tuning paradigm**, which aims at maintaining both task-specific and task-agnostic knowledge during pruning. CAP is designed as a general framework, compatible with both structured and unstructured pruning. Unified in contrastive learning, CAP encourage the pruned model to learn from the pre-trained model, the snapshots (intermediate models during pruning), and the fine-tuned model, respectively. “[From Dense to Sparse: Contrastive Pruning for Better Pre-trained Language Model Compression](#)" (```AAAI 2022```)
 
 
 ## Contact Information
