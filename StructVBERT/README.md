@@ -7,7 +7,7 @@ We propose a new single-stream visual-linguistic pre-training scheme by leveragi
 ## Pre-trained models
 |Model | Description | #params | Download |
 |------------------------|-------------------------------------------|------|------|
-|structvbert.en.base | StructVBERT using the BERT-base architecture | 110M | [structvbert.en.base](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/pretrained_model.tar.gz) |
+|structvbert.en.base | StructVBERT using the BERT-base architecture | 110M | [structvbert.en.base](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/pretrained_model.tar.gz) |
 |structvbert.en.large | StructVBERT using the BERT-large architecture | 355M | Coming soon |
 
 ## Results
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 * For faster training install NVIDIA's [apex](https://github.com/NVIDIA/apex) library
-* The codebase is built on top of [LXMERT](https://github.com/airsplay/lxmert) codebase. Please first download the [pretrained structvbert model](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/pretrained_model.tar.gz), [VQA and NLVR2 data](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/data.tar.gz) and VQA and NLVR2 image features [VQA train](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/train_npz.tar.gz), [VQA val](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/valid_npz.tar.gz), [VQA test](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/test_npz.tar.gz), [NLVR2 train](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/nlvr2_train_npz.tar.gz), [NLVR2 val](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/nlvr2_valid_npz.tar.gz) and [NLVR2 test](http://119608.oss-cn-hangzhou-zmf.aliyuncs.com/structvbert/nlvr2_test_npz.tar.gz). 
+* The codebase is built on top of [LXMERT](https://github.com/airsplay/lxmert) codebase. Please first download the [pretrained structvbert model](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/pretrained_model.tar.gz), [VQA and NLVR2 data](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/data.tar.gz) and VQA and NLVR2 image features [VQA train](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/train_npz.tar.gz), [VQA val](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/valid_npz.tar.gz), [VQA test](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/test_npz.tar.gz), [NLVR2 train](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/nlvr2_train_npz.tar.gz), [NLVR2 val](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/nlvr2_valid_npz.tar.gz) and [NLVR2 test](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/nlvr2_test_npz.tar.gz). 
 
 * After downloading the data and features from the drives, 
 please re-organize them according to the following example:
