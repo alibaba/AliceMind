@@ -22,6 +22,7 @@ The family of AliceMind:
 - September, 2021: The first Chinese pre-training table model [SDCUP](https://arxiv.org/abs/2103.04399) released!
 - October, 2021: [ChildTuning](https://arxiv.org/abs/2109.05687) were accepted by EMNLP 2021.
 - December, 2021: [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) were accepted by AAAI 2022.
+- April, 2022: The SOFA modeling toolkit released which supports models&techs standard code and the direct use of them in transformers!
 
 ## Pre-trained Models
 - [**StructBERT**](StructBERT) (March 15, 2021): pre-trained models for **natural language understanding (NLU)**. We extend BERT to a new model, StructBERT, by incorporating language structures into pre-training. Specifically, we pre-train StructBERT with two auxiliary tasks to make the most of the sequential order of words and sentences, which leverage language structures at the word and sentence levels, respectively. "[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)" (```ICLR 2020```)
@@ -45,6 +46,9 @@ propose a **straightforward yet effective fine-tuning technique**, ChildTuning, 
 - [**ContrastivePruning**](ContrastivePruning) (December 17, 2021): 
 ContrAstive Pruning (CAP) is a **general pruning framework under the pre-training and fine-tuning paradigm**, which aims at maintaining both task-specific and task-agnostic knowledge during pruning. CAP is designed as a general framework, compatible with both structured and unstructured pruning. Unified in contrastive learning, CAP encourage the pruned model to learn from the pre-trained model, the snapshots (intermediate models during pruning), and the fine-tuned model, respectively. “[From Dense to Sparse: Contrastive Pruning for Better Pre-trained Language Model Compression](#)" (```AAAI 2022```)
 
+## Modeling toolkit
+- [**SOFA**](SOFA/README.md) SOFA aims to faciliate easy use and distribution of the pretrained language models from Alibaba DAMO Academy AliceMind project. 
+In addition, detail examples in the project make it simple for any end-user to access those models.
 
 ## Contact Information
 **AliceMind Official Website**: [https://nlp.aliyun.com/portal#/alice](https://nlp.aliyun.com/portal#/alice) 
