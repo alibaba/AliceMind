@@ -1,10 +1,13 @@
-# Squad
+# RACE
 
-## SQUAD V2.0
+## RACE
 Please download all the related files from this link:
-https://rajpurkar.github.io/SQuAD-explorer/
+https://www.cs.cmu.edu/~glai1/data/race/
 
-Including: train-v2.0.json, dev-v2.0.json, evaluate.py
+Including: RACE
+            --train
+            --dev
+            --test
 
 ## Guide
 
@@ -12,21 +15,20 @@ Including: train-v2.0.json, dev-v2.0.json, evaluate.py
 ```
 pip install transformers
 ```
-2. Adjust the hyperparameters in the ```run_squad.sh```.
+2. Adjust the hyperparameters in the ```run_race.sh```.
    
    Then, run the following code:
 
 ```
-bash run_squad.sh
+bash run_race.sh
 ```
-3. Use the fine-tuned model to generate predictions and get exact_match and f1 scores with ```evaluate.py```.
 
 ## Example Usage
 
 ```
 squad.py
   --model_path "Path to pretrained models"
-  --train_file "Path to SQAUD V2.0 Trasn JSON file"
+  --train_file "Path to RACE file"
   --epoch "Number of epoches"
   --learning_rate "Learning rate for Adam"
   --weight_decay "Weight decay for training"
