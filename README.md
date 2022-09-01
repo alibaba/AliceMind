@@ -41,6 +41,8 @@ The family of AliceMind:
 
 - [**SDCUP**](SDCUP) (September 6, 2021): pre-trained models for **table understanding**. We design a schema dependency pre-training objective to impose the desired inductive bias into the learned representations for table pre-training. We further propose a schema-aware curriculum learning approach to alleviate the impact of noise and learn effectively from the pre-training data in an easy-to-hard manner. The experiment results on SQUALL and Spider demonstrate the effectiveness of our pre-training objective and curriculum in comparison to a variety of baselines. "[SDCUP: Schema Dependency Enhanced Curriculum Pre-Training for Table Semantic Parsing]()" (```Under Review```) 
 
+- [**PLUG**](PLUG) (September 1, 2022): large-scale chinese pre-trained model for **understanding and generation**. PLUG (27B) is a large-scale chinese pre-training model for language understanding and generation. The training of PLUG is two-stage, the first stage is a 24-layer [StructBERT](https://arxiv.org/abs/1908.04577) encoder, and the second stage is a 24-6-layer [PALM](https://arxiv.org/pdf/2004.07159.pdf?fbclid=IwAR0BNl1IzR5bhcuEbyfNw2UN7MApHFoFP3BN40FKkW8x3bqolK_HilU293I) encoder-decoder.
+
 ## Fine-tuning Methods
 - [**ChildTuning**](ChildTuning) (October 25, 2021): To mitigate the overfitting problem and improve generalization for fine-tuning large-scale PLMs, we
 propose a **straightforward yet effective fine-tuning technique**, ChildTuning, which only updates the child network during fine-tuning via strategically masking out the gradients of the non-child network. “[Raise a Child in Large Language Model: Towards Effective and Generalizable Fine-tuning](https://arxiv.org/abs/2109.05687)" (```EMNLP 2021```)
