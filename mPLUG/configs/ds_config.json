@@ -1,0 +1,20 @@
+{
+  "train_batch_size": 491520000000,
+  "gradient_accumulation_steps": 1,
+  "steps_per_print": 1,
+  "zero_optimization": {
+    "stage": 2,
+    "overlap_comm": false
+  },
+  "zero_allow_untested_optimizer": true,
+  "gradient_clipping": 1.0,
+  "bfloat16": {
+    "enabled": true
+  },
+  "activation_checkpointing": {
+    "partition_activations": true,
+    "contiguous_memory_optimization": false,
+    "profile": false
+  },
+  "wall_clock_breakdown": false
+}

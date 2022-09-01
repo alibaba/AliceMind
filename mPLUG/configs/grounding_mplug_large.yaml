@@ -1,0 +1,30 @@
+# public config
+data_root: ./ln_data
+split_root: ./data
+
+# dataset config
+dataset: vg_uni
+aug_blur: False
+aug_crop: True
+aug_scale: True
+aug_translate: True
+max_query_len: 20
+eval_split: [testA, testB]
+extra_dim: 768
+extra_nhead: 12
+
+embed_dim: 256
+bert_config: 'configs/config_bert.json'
+
+image_res: 336
+batch_size_train: 24
+vision_width: 1024
+distill: True
+clip_name: "ViT-L-14"
+batch_size_test: 8
+k_test: 128
+
+alpha: 0.4
+warm_up: True
+optimizer: {opt: adamW, lr1: 2e-5, lr2: 5e-6, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 2e-6, epochs: 120, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-6, warmup_epochs: 20, cooldown_epochs: 0}

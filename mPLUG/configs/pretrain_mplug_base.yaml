@@ -1,0 +1,27 @@
+alpha: 0.4
+batch_size: 256
+bert_config: configs/config_bert_stride3.json
+concat_last_layer: true
+clip_name: "ViT-B-16"
+distill: true
+embed_dim: 256
+eos: '[SEP]'
+image_res: 256
+ita_task: true
+itm_task: true
+merge_attention: false
+mid_cross: true
+mlm_probability: 0.15
+mlm_task: true
+momentum: 0.995
+optimizer: {lr1: 0.0001, lr2: 1e-05, opt: adamW, weight_decay: 0.02}
+prefix_task: true
+queue_size: 65536
+#queue_size: 64512
+read_local_data: false
+schedular: {cooldown_epochs: 0, decay_rate: 1, epochs: 30, lr: 0.0001, min_lr: 1e-06,
+  sched: cosine, warmup_epochs: 20, warmup_lr: 1e-06}
+temp: 0.07
+train_file: [data/mscoco_train.json, data/vgnococo.json, data/google_cc.json, data/sbu.json]
+vision_width: 768
+use_checkpoint: true

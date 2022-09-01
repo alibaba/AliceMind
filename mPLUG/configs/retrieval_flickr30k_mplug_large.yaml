@@ -1,0 +1,27 @@
+train_file:  ['data/flickr30k_train.json']
+val_file: 'data/flickr30k_val.json'
+test_file: 'data/flickr30k_test.json'
+image_root: 'img_root/flickr30k/' #flickr30k-images/
+
+bert_config: 'configs/config_bert.json'
+clip_name: "ViT-L-14"
+
+image_res: 336
+batch_size_train: 128
+batch_size_test: 64
+
+queue_size: 65536
+momentum: 0.995
+vision_width: 1024
+embed_dim: 256
+temp: 0.07
+k_test: 256
+
+alpha: 0.4
+distill: True
+warm_up: True
+
+#optimizer: {opt: adamW, lr: 1e-5, weight_decay: 0.02}
+optimizer: {opt: adamW, lr1: 1e-5, lr2: 2e-6, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 1e-5, epochs: 8, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 1, cooldown_epochs: 0}
+use_checkpoint: true

@@ -1,0 +1,26 @@
+# val_file: ['data/nocaps_val.json']
+test_file: ['data/vatex/vatex_public_test_english_v1.1.json']
+ref_path: 'data/vatex/vatex_public_test_english_v1.1.json'
+
+read_local_data: True
+vatex_video_caps_root: 'video_root/vatex/'
+bert_config: 'configs/config_bert.json'
+image_res: 448
+batch_size_train: 8
+vision_width: 1024
+distill: True
+clip_name: "ViT-L-14"
+batch_size_test: 12
+k_test: 128
+
+alpha: 0.4
+warm_up: True
+
+eos: '[SEP]'
+bos: '[CLS]'
+prompt: 'a picture of'
+
+optimizer: {opt: adamW, lr1: 1e-5, lr2: 5e-6, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 1e-5, epochs: 5, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 4, cooldown_epochs: 0}
+use_checkpoint: true
+num_frm_test: 8

@@ -1,0 +1,27 @@
+train_file: ['data/coco_object/coco_caption_train_ocr.json']
+val_file: ['data/coco_object/coco_caption_test_ocr.json']            
+test_file: ['data/coco_object/coco_caption_test_ocr.json']
+
+read_local_data: True
+
+coco_root: 'img_root/coco_2014/'
+bert_config: 'configs/config_bert.json'
+
+image_res: 336
+batch_size_train: 64
+vision_width: 1024
+distill: True
+clip_name: "ViT-L-14"
+batch_size_test: 64 
+k_test: 128
+
+alpha: 0.4
+warm_up: True
+
+eos: '[SEP]'
+bos: '[CLS]'
+prompt: ''
+
+optimizer: {opt: adamW, lr1: 1e-6, lr2: 1e-6, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 1e-6, epochs: 5, min_lr: 8e-8, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 4, cooldown_epochs: 0}
+use_checkpoint: true
