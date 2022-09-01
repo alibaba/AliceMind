@@ -11,6 +11,7 @@ The family of AliceMind:
      * Structural language model: [StructuralLM](https://github.com/alibaba/AliceMind/tree/main/StructuralLM) (```ACL 2021```)
      * Chinese language understanding model with multi-granularity inputs: [LatticeBERT](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) (```NAACL 2021```)
      * Pre-training table model: [SDCUP](https://github.com/alibaba/AliceMind/tree/main/SDCUP) (```Under Review```)
+     * Large-scale chinese understanding and generation model: [PLUG](https://github.com/alibaba/AliceMind/tree/main/PLUG)
 * Fine-tuning Methods:
      * Effective and generalizable fine-tuning method [ChildTuning](https://github.com/alibaba/AliceMind/tree/main/ChildTuning) (```EMNLP 2021```)
 * Model Compression:
@@ -41,7 +42,7 @@ The family of AliceMind:
 - [**SDCUP**](SDCUP) (September 6, 2021): pre-trained models for **table understanding**. We design a schema dependency pre-training objective to impose the desired inductive bias into the learned representations for table pre-training. We further propose a schema-aware curriculum learning approach to alleviate the impact of noise and learn effectively from the pre-training data in an easy-to-hard manner. The experiment results on SQUALL and Spider demonstrate the effectiveness of our pre-training objective and curriculum in comparison to a variety of baselines. "[SDCUP: Schema Dependency Enhanced Curriculum Pre-Training for Table Semantic Parsing]()" (```Under Review```) 
 
 ## Fine-tuning Methods
-- [**ChildTuning**](Child-Tuning) (October 25, 2021): To mitigate the overfitting problem and improve generalization for fine-tuning large-scale PLMs, we
+- [**ChildTuning**](ChildTuning) (October 25, 2021): To mitigate the overfitting problem and improve generalization for fine-tuning large-scale PLMs, we
 propose a **straightforward yet effective fine-tuning technique**, ChildTuning, which only updates the child network during fine-tuning via strategically masking out the gradients of the non-child network. “[Raise a Child in Large Language Model: Towards Effective and Generalizable Fine-tuning](https://arxiv.org/abs/2109.05687)" (```EMNLP 2021```)
 
 ## Model Compression
