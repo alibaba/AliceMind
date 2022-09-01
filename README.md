@@ -15,6 +15,7 @@ The family of AliceMind:
      * Effective and generalizable fine-tuning method [ChildTuning](https://github.com/alibaba/AliceMind/tree/main/ChildTuning) (```EMNLP 2021```)
 * Model Compression:
      * Language model compression methods [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) (```AAAI 2022```)
+     * Parameter-Efficient Sparsity methods [PST](https://github.com/alibaba/AliceMind/tree/main/S4/PST) (```IJCAI 2022```)
 
 ## News
 - March, 2021: AliceMind released!
@@ -23,6 +24,7 @@ The family of AliceMind:
 - October, 2021: [ChildTuning](https://arxiv.org/abs/2109.05687) were accepted by EMNLP 2021.
 - December, 2021: [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) were accepted by AAAI 2022.
 - April, 2022: The SOFA modeling toolkit released which supports models&techs standard code and the direct use of them in transformers!
+- May, 2022: [PST](https://arxiv.org/abs/2205.11005) were accepted by IJCAI 2022.
 
 ## Pre-trained Models
 - [**StructBERT**](StructBERT) (March 15, 2021): pre-trained models for **natural language understanding (NLU)**. We extend BERT to a new model, StructBERT, by incorporating language structures into pre-training. Specifically, we pre-train StructBERT with two auxiliary tasks to make the most of the sequential order of words and sentences, which leverage language structures at the word and sentence levels, respectively. "[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)" (```ICLR 2020```)
@@ -45,6 +47,9 @@ propose a **straightforward yet effective fine-tuning technique**, ChildTuning, 
 ## Model Compression
 - [**ContrastivePruning**](ContrastivePruning) (December 17, 2021): 
 ContrAstive Pruning (CAP) is a **general pruning framework under the pre-training and fine-tuning paradigm**, which aims at maintaining both task-specific and task-agnostic knowledge during pruning. CAP is designed as a general framework, compatible with both structured and unstructured pruning. Unified in contrastive learning, CAP encourage the pruned model to learn from the pre-trained model, the snapshots (intermediate models during pruning), and the fine-tuned model, respectively. “[From Dense to Sparse: Contrastive Pruning for Better Pre-trained Language Model Compression](#)" (```AAAI 2022```)
+
+- [**PST**](PST) (May 23, 2022): 
+Parameter-efficient Sparse Training (PST) is to reduce the number of trainable parameters during sparse-aware training in downstream tasks. It combines the data-free and data-driven criteria to efficiently and accurately measures the importance of weights, and investigates the intrinsic redundancy of data-driven weight importance and derive two obvious characteristics i.e., low-rankness and structuredness, which therefore makes the sparse training resource-efficient and parameter-efficient. “[Parameter-Efficient Sparsity for Large Language Models Fine-Tuning](#)" (```IJCAI 2022```)
 
 ## Modeling toolkit
 - [**SOFA**](SOFA/README.md) SOFA aims to faciliate easy use and distribution of the pretrained language models from Alibaba DAMO Academy AliceMind project. 

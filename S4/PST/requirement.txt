@@ -1,0 +1,9 @@
+torch==1.11.0
+transformers==4.18.0
+datasets==1.18.3
+tokenizers==0.11.2
+tensorboardX
+spacy
+tqdm
+tensorboard
+progress
