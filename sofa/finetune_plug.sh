@@ -15,11 +15,8 @@ task_type=generation
 
 # Download model
 if [ ! -d $model_dir/plug_model ]; then
-  echo "Downloading pretrained model to $model_dir"
-  wget https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/PLUG/plug_model.tar -P $model_dir
-  mkdir -p $model_dir/plug_model
-  tar xvf $model_dir/plug_model.tar -C $model_dir/plug_model
-  rm $model_dir/plug_model.tar
+  echo "   Error: You need to download pretrained model to $model_dir first."
+  exit n
 fi
 
 # Download data
