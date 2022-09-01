@@ -44,8 +44,11 @@ from .file_utils import (
     replace_return_docstrings,
     add_start_docstrings,
     add_start_docstrings_to_model_forward,
-    add_end_docstrings
+    add_end_docstrings,
 )
+
+from .data_utils.file_utils import cached_path
+
 from .modeling_outputs import (
     BaseModelOutputWithPastAndCrossAttentions,
     BaseModelOutputWithPoolingAndCrossAttentions,
@@ -71,6 +74,16 @@ from .tokenization_utils_fast import (
 )
 
 from .compat import inject_model_backend, inject_pipeline
+
+import sys
+
+sys.path.append('./mpu')
+
+from .utils import *
+from .fp16 import *
+from .data_utils import *
+from .checkpoints import save_checkpoint, load_checkpoint, pre_load, load_deepspeed_checkpoint
+from .args_utils import ArgsBase
 
 from .dureader_eval import compute_bleu_rouge, normalize
 

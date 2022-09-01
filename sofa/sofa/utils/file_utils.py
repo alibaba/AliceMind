@@ -17,6 +17,7 @@
 
 import re
 import os
+import sys
 from .compat import _report_compat_error
 
 _report_compat_error()
@@ -656,8 +657,6 @@ def _prepare_output_docstrings(output_type, config_class):
     intro = TF_RETURN_INTRODUCTION if output_type.__name__.startswith("TF") else PT_RETURN_INTRODUCTION
     intro = intro.format(full_output_type=full_output_type, config_class=config_class)
     return intro + docstrings
-
-
 
 def _get_indent(t):
     """Returns the indentation in the first line of t"""

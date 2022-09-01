@@ -11,6 +11,7 @@ SOFA has the following features:
 # Features
 
 - **AliceMind: ALIbaba's Collection of Encoder-decoders from MinD (Machine IntelligeNce of Damo) Lab** in the form of model scheme from [transformers](https://github.com/huggingface/transformers), including:
+    * Large-scale language model: PLUG, a chinese pre-training model for language understanding and generation. PLUG has 27 billion parameters. The training of PLUG is two-stage, the first stage is a 24-layer [StructBERT](https://arxiv.org/abs/1908.04577) encoder, and the second stage is a 24-6-layer [PALM](https://arxiv.org/pdf/2004.07159.pdf?fbclid=IwAR0BNl1IzR5bhcuEbyfNw2UN7MApHFoFP3BN40FKkW8x3bqolK_HilU293I) encoder-decoder.
     * Language understanding model: [StructBERT](https://arxiv.org/abs/1908.04577) (```ICLR 2020```)， a model extended from BERT, by incorporating language structures into pre-training. Specifically, we pre-train StructBERT with two auxiliary tasks to make the most of the sequential order of words and sentences, which leverage language structures at the word and sentence levels, respectively. On the other handby applying the ***adversarial training*** during the fine-tune, the StructBERT with size large has **4~8%** better performace than that in BERT 
     * Generative language model: [PALM](https://arxiv.org/abs/2004.07159) (```EMNLP 2020```),  a novel scheme that jointly pre-trains an autoencoding and autoregressive language model on a large unlabeled corpus, specifically designed for generating new text conditioned on context.
     * Cross-lingual language model: [VECO](https://arxiv.org/abs/2010.16046) (```ACL 2021```), a variable encoder-decoder (VECO) model targets at providing pre-trained model initialization for both the encoder-only and encoder-decoder Transformer with the most streamlined parameters
@@ -193,7 +194,7 @@ Model | Description | # Params | Download
 
 [XTREME](https://sites.research.google/xtreme/) is one of the most representative massively multilingual benchmark.
 
-The result of XNLI task is reproduced using the default hyperparameters listed in `.sh` file. Other benchmark on tasks such as XQuAD, Tatoeba can be found in [VECO-Readme](https://github.com/alibaba/AliceMind/tree/main/
+The result of XNLI task is reproduced using the default hyperparameters listed in `finetune_veco.sh` file. Other benchmark on tasks such as XQuAD, Tatoeba can be found in [VECO-Readme](https://github.com/alibaba/AliceMind/tree/main/VECO)
 
 |Model| XNLI<br>(Acc) |
 |--------------------|-------|
@@ -228,6 +229,44 @@ palm.ch.base | PALM using a 12-layer encoder and a 12-layer decoder on Chinese t
 |BLEU-1 | 0.5863 | 0.5560 | 0.3296 |
 |BLEU-4 | 0.3982 | 0.3553 | 0.1716 |
 |ROUGE-L | 0.6027 | 0.5661 | 0.3293 |
+
+
+## PLUG
+
+PLUG, a large-scale chinese pre-training model for language understanding and generation.
+
+
+#### Introduction
+
+Please check the model's [readme file](../PLUG/README.md).
+
+#### Pre-trained models
+|Model | Description | #params | Download |
+|------------------------|-------------------------------------------|------|------|
+|PLUG |chinese PLUG  | 27B | [PLUG](https://github.com/alibaba/AliceMind/tree/main/PLUG#pre-trained-model-download) |
+
+#### Results
+
+##### Fine-tuning on Question Generation
+The result of Question Generation task is reproduced using the default hyperparameters listed in `finetune_plug.sh` file. Other benchmark on datasets such as [KBQG](https://github.com/nanduan/NLPCC-KBQA), [DuReaderQG](https://arxiv.org/abs/1711.05073) can be found in [PLUG-Readme](https://github.com/alibaba/AliceMind/tree/main/PLUG)
+|PLUG| BLEU-1|BLEU-2|BLEU-4|ROUGE-L|
+|----|-------|------|------|-------|
+|DuReader-Robust|0.6310|0.5510|0.4223|0.6264|
+
+*Device Requirements for finetune: single node, 8 32G V100.
+
+#### 免责声明
+针对基于本模型由用户直接或间接生成的内容，我们不对基于模型产生、生成内容的合规性承担责任。
+
+您在此承诺：
+
+1、您会严格落实法律法规、部门规章等相关文件的全部要求（包括但不限于备案、标识等），不会使用模型能力从事任何违反法律法规或公序良俗的行为，不会使用模型能力生成任何涉及恐怖、暴力、色情等违反法律要求的信息，或为上述行为提供帮助。
+
+2、您使用模型能力而取得的任何产出或成果（包括但不限于音频、视频、文本文件等），应按照法律法规、部门规章等相关文件的要求进行合法使用。
+
+3、您承诺您在使用模型能力过程中提供的素材等数据，是您通过合法途径取得并获得充分授权对其进行使用的。您承诺使用的任何素材、相关数据、对模型能力的使用及使用能力所产生的任何成果，均未侵犯任何第三方的合法权益。如有第三方基于侵犯著作权、侵犯第三人之权益或违反中国法律法规或其他适用的法律等原因而向提起索赔、诉讼或可能向提起诉讼，则您应赔偿因此承担的所有费用或所有损失。
+
+
 
 # AliceMind Techniques
 ### Child-Tuning

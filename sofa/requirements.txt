@@ -17,3 +17,4 @@ retrying
 seqeval
 PyYaml
 protobuf
+deepspeed==0.6.5
