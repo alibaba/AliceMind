@@ -40,7 +40,6 @@ def pre_caption(caption,max_words):
 
 
 from vqaTools.vqaEval import VQAEval
-from refTools.evaluation.refEvaluation import RefEvaluation
 
 import json
 import os
