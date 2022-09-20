@@ -8,7 +8,7 @@ The training of PLUG is two-stage, the first stage is a 24-layer [StructBERT](ht
 ## Pre-trained model download
 |Model | Description | #params | Download |
 |------------------------|-------------------------------------------|------|------|
-|PLUG |chinese PLUG  | 27B | We are building the download web page, the model will be released before 2022/9/30. |
+|PLUG |chinese PLUG  | 27B | [Apply for download](https://www.alice-mind.com/portal#/) |
 
 ## Results
 #### Finetune
@@ -42,7 +42,7 @@ git clone https://github.com/alibaba/AliceMind.git
 cd AliceMind/PLUG
 
 # Download model: About 55 GB after unzip.
-We are building the download web page, the model will be released before 2022/9/30.
+[Apply for download](https://www.alice-mind.com/portal#/)
 
 # inference
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 predict.py
