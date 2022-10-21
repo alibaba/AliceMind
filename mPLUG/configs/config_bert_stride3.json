@@ -19,7 +19,7 @@
   "encoder_width": 768,
   "add_cross_attention": false,
   "use_cache":false,
-  "gradient_checkpointing": true,
+  "gradient_checkpointing": false,
   "text_encoder_layers": 6,
   "fusion_layers": 6,
   "text_decode_layers": 12,

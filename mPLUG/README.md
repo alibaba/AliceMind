@@ -26,7 +26,7 @@ For VQA and image captioning tasks, we do an additional continue pre-training on
 |------------------------|-------------------------------------------|------|------|------|------|-----|
 |mplug.en.base | [vit-b-16](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/ViT-B-16.tar) | 6 | 6 | 12 | 350M | [mplug.en.base](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/mplug_base.pth) |
 |mplug.en.large | [vit-l-14](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/ViT-L-14.tar) | 6 | 6 | 12 | 600M | [mplug.en.large](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/mplug_large.pth) |
-|mplug.en.large.v2 | [vit-l-14](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/ViT-L-14.tar) | 6 | 6 | 12 | 600M | [mplug.en.large.v2](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mplug_large_v2.pth) |
+|mplug.en.large.v2 | [vit-l-14](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/ViT-L-14.tar) | 6 | 6 | 12 | 600M | [mplug.en.large.v2](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/mplug_large_v2.pth) |
 |mplug.en.huge | vit-l-14 | 24 | 6 | 12 | 1.1B | comming soon |
                                                                      
 
