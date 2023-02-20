@@ -205,7 +205,7 @@ Comming soon.
                                                                                           
 1. Download COCO Caption dataset from the original websites.
 2. Download and extract the provided dataset json files.
-3. Download language evalution tool([language_evalution](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/language_evalution.tar)).
+3. Download language evalution tool([language_evalution](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/mPLUG/language_evaluation.tar)).
 4. In configs/caption_mplug_base.yaml, set the paths for the json files and the image paths.
 5. Finetune the pre-trained mplug_base or large model using 8 A100 GPUs:
 <pre>sh scripts/caption_mplug_base.sh</pre> 
