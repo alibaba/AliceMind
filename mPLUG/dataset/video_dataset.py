@@ -156,11 +156,14 @@ class vatex_video_caps_dataset(Dataset):
                 frame_indices_head = sorted(random.sample(range(vlen // 2), self.num_frm // 2))
                 frame_indices_tail = sorted(random.sample(range(vlen // 2, vlen), self.num_frm // 2))
                 frame_indices = frame_indices_head + frame_indices_tail
+            elif self.frm_sampling_strategy == 'all':
+                frame_indices = np.arange(start_idx, end_idx, 1, dtype=int)
             else:
                 raise NotImplementedError('Invalid sampling strategy {} '.format(self.frm_sampling_strategy))
 
             raw_sample_frms = vr.get_batch(frame_indices)
         except Exception as e:
+            print(e)
             return None
 
         raw_sample_frms = raw_sample_frms.permute(0, 3, 1, 2)
@@ -171,10 +174,10 @@ class vatex_video_caps_dataset(Dataset):
 
         ann = self.ann[index]
         video_id = ann['videoID']
+        cap = ann['caption']
 
         video_path = os.path.join(self.video_root, ann['videoID'] + self.video_fmt)
         vid_frm_array = self._load_video_from_path_decord(video_path, height=self.max_img_size, width=self.max_img_size)
         video = self.img_norm(vid_frm_array.float())
 
-        return video, video_id
-
+        return video, video_id, cap
