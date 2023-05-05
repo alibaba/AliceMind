@@ -27,8 +27,12 @@ The family of AliceMind:
 - December, 2021: [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) were accepted by AAAI 2022.
 - April, 2022: The SOFA modeling toolkit released which supports models&techs standard code and the direct use of them in transformers!
 - May, 2022: [PST](https://arxiv.org/abs/2205.11005) were accepted by IJCAI 2022.
+- October, 2022: [mPLUG](https://arxiv.org/abs/2205.12005) were accepted by EMNLP 2022.
+- April 16, 2023: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG) The Chinese open-domain dialogue system for digital human applications released.
+- April 27, 2023: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) A new training paradigm with a modularized design for large multi-modal language models released.
 
 ## Pre-trained Models
+
 - [**StructBERT**](StructBERT) (March 15, 2021): pre-trained models for **natural language understanding (NLU)**. We extend BERT to a new model, StructBERT, by incorporating language structures into pre-training. Specifically, we pre-train StructBERT with two auxiliary tasks to make the most of the sequential order of words and sentences, which leverage language structures at the word and sentence levels, respectively. "[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)" (```ICLR 2020```)
 
 - [**PALM**](PALM) (March 15, 2021): pre-trained models for **natural language generation (NLG)**. We propose a novel scheme that jointly pre-trains an autoencoding and autoregressive language model on a large unlabeled corpus, specifically designed for generating new text conditioned on context. It achieves new SOTA results in several downstream tasks. "[PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation](https://arxiv.org/abs/2004.07159)" (```EMNLP 2020```)
@@ -44,7 +48,11 @@ The family of AliceMind:
 
 - [**PLUG**](PLUG) (September 1, 2022): large-scale chinese pre-trained model for **understanding and generation**. PLUG (27B) is a large-scale chinese pre-training model for language understanding and generation. The training of PLUG is two-stage, the first stage is a 24-layer [StructBERT](https://arxiv.org/abs/1908.04577) encoder, and the second stage is a 24-6-layer [PALM](https://arxiv.org/pdf/2004.07159.pdf?fbclid=IwAR0BNl1IzR5bhcuEbyfNw2UN7MApHFoFP3BN40FKkW8x3bqolK_HilU293I) encoder-decoder.
 
-- [**mPLUG**](mPLUG) (September 1, 2022): large-scale pre-trained model for vision-language **understanding and generation**. mPLUG is pre-trained end-to-end on large scale image-text pairs with both discriminative and generative objectives. It achieves state-of-the-art results on a wide range of vision-language downstream tasks, including image-captioning, image-text retrieval, visual grounding and visual question answering. 
+- [**mPLUG**](mPLUG) (September 1, 2022): large-scale pre-trained model for vision-language **understanding and generation**. mPLUG is pre-trained end-to-end on large scale image-text pairs with both discriminative and generative objectives. It achieves state-of-the-art results on a wide range of vision-language downstream tasks, including image-captioning, image-text retrieval, visual grounding and visual question answering. [mPLUG: Effective Multi-Modal Learning by Cross-Modal Skip Connections](https://arxiv.org/abs/2205.12005)(```EMNLP 2022```)
+
+- [**ChatPLUG**](ChatPLUG) (April 16, 2023): a Chinese open-domain dialogue system for digital human applications that instruction finetunes on a wide range of dialogue tasks in a unified internet-augmented format. Different from other open-domain dialogue models that focus on large-scale pre-training and scaling up model size or dialogue corpus, we aim to build a powerful and practical dialogue system for digital human with diverse skills and good multi-task generalization by internet-augmented instruction tuning. [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human](https://arxiv.org/abs/2304.07849)
+
+- [**mPLUG-Owl**](mPLUG-Owl) (April 27, 2023): a new training paradigm with a modularized design for large multi-modal language models. Learns visual knowledge while support multi-turn conversation consisting of different modalities. Observed abilities such as multi-image correlation and scene text understanding, vision-based document comprehension. Release a visually-related instruction evaluation set OwlEval. [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178)
 
 ## Fine-tuning Methods
 - [**ChildTuning**](ChildTuning) (October 25, 2021): To mitigate the overfitting problem and improve generalization for fine-tuning large-scale PLMs, we
