@@ -4,55 +4,61 @@ This repository provides pre-trained encoder-decoder models and its related opti
 
 The family of AliceMind:
 * Pre-trained Models:
-     * Language understanding model: [StructBERT](https://github.com/alibaba/AliceMind/tree/main/StructBERT) (```ICLR 2020```)
-     * Generative language model: [PALM](https://github.com/alibaba/AliceMind/tree/main/PALM) (```EMNLP 2020```)
-     * Cross-lingual language model: [VECO](https://github.com/alibaba/AliceMind/tree/main/VECO) (```ACL 2021```)
-     * Cross-modal language model: [StructVBERT](https://github.com/alibaba/AliceMind/tree/main/StructVBERT) (```CVPR 2020 VQA Challenge Runner-up```)
-     * Structural language model: [StructuralLM](https://github.com/alibaba/AliceMind/tree/main/StructuralLM) (```ACL 2021```)
-     * Chinese language understanding model with multi-granularity inputs: [LatticeBERT](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) (```NAACL 2021```)
-     * Pre-training table model: [SDCUP](https://github.com/alibaba/AliceMind/tree/main/SDCUP) (```Under Review```)
-     * Large-scale chinese understanding and generation model: [PLUG](https://github.com/alibaba/AliceMind/tree/main/PLUG)
+     * A new training paradigm with a **modularized design** for large multi-modal language models: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl)
+     * Large-scale Chinese open-domain dialogue system for digital human: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG)
      * Large-scale vision-language understanding and generation model: [mPLUG](https://github.com/alibaba/AliceMind/tree/main/mPLUG)
+     * Large-scale chinese understanding and generation model: [PLUG](https://github.com/alibaba/AliceMind/tree/main/PLUG)
+     * Pre-training table model: [SDCUP](https://github.com/alibaba/AliceMind/tree/main/SDCUP) (```Under Review```)
+     * Chinese language understanding model with multi-granularity inputs: [LatticeBERT](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) (```NAACL 2021```)
+     * Structural language model: [StructuralLM](https://github.com/alibaba/AliceMind/tree/main/StructuralLM) (```ACL 2021```)
+     * Cross-modal language model: [StructVBERT](https://github.com/alibaba/AliceMind/tree/main/StructVBERT) (```CVPR 2020 VQA Challenge Runner-up```)
+     * Cross-lingual language model: [VECO](https://github.com/alibaba/AliceMind/tree/main/VECO) (```ACL 2021```)
+     * Generative language model: [PALM](https://github.com/alibaba/AliceMind/tree/main/PALM) (```EMNLP 2020```)
+     * Language understanding model: [StructBERT](https://github.com/alibaba/AliceMind/tree/main/StructBERT) (```ICLR 2020```)
 * Fine-tuning Methods:
+     * Parameter-Efficient Sparsity methods [PST](https://github.com/alibaba/AliceMind/tree/main/S4/PST) (```IJCAI 2022```)
      * Effective and generalizable fine-tuning method [ChildTuning](https://github.com/alibaba/AliceMind/tree/main/ChildTuning) (```EMNLP 2021```)
 * Model Compression:
      * Language model compression methods [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) (```AAAI 2022```)
-     * Parameter-Efficient Sparsity methods [PST](https://github.com/alibaba/AliceMind/tree/main/S4/PST) (```IJCAI 2022```)
 
 ## News
-- March, 2021: AliceMind released!
-- May, 2021: [VECO](https://arxiv.org/abs/2010.16046) and [StructuralLM](https://arxiv.org/abs/2105.11210) were accepted by ACL 2021.
-- September, 2021: The first Chinese pre-training table model [SDCUP](https://arxiv.org/abs/2103.04399) released!
-- October, 2021: [ChildTuning](https://arxiv.org/abs/2109.05687) were accepted by EMNLP 2021.
-- December, 2021: [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) were accepted by AAAI 2022.
-- April, 2022: The SOFA modeling toolkit released which supports models&techs standard code and the direct use of them in transformers!
-- May, 2022: [PST](https://arxiv.org/abs/2205.11005) were accepted by IJCAI 2022.
+
+- **April 27, 2023: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl), a new training paradigm with a modularized design for large multi-modal language models released.**
+- **April 16, 2023: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG), the Chinese open-domain dialogue system for digital human applications released.**
 - October, 2022: [mPLUG](https://arxiv.org/abs/2205.12005) were accepted by EMNLP 2022.
-- April 16, 2023: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG) The Chinese open-domain dialogue system for digital human applications released.
-- April 27, 2023: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) A new training paradigm with a modularized design for large multi-modal language models released.
+- May, 2022: [PST](https://arxiv.org/abs/2205.11005) were accepted by IJCAI 2022.
+- April, 2022: The SOFA modeling toolkit released which supports models&techs standard code and the direct use of them in transformers!
+- December, 2021: [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) were accepted by AAAI 2022.
+- October, 2021: [ChildTuning](https://arxiv.org/abs/2109.05687) were accepted by EMNLP 2021.
+- September, 2021: The first Chinese pre-training table model [SDCUP](https://arxiv.org/abs/2103.04399) released!
+- May, 2021: [VECO](https://arxiv.org/abs/2010.16046) and [StructuralLM](https://arxiv.org/abs/2105.11210) were accepted by ACL 2021.
+- March, 2021: AliceMind released!
+
 
 ## Pre-trained Models
 
-- [**StructBERT**](StructBERT) (March 15, 2021): pre-trained models for **natural language understanding (NLU)**. We extend BERT to a new model, StructBERT, by incorporating language structures into pre-training. Specifically, we pre-train StructBERT with two auxiliary tasks to make the most of the sequential order of words and sentences, which leverage language structures at the word and sentence levels, respectively. "[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)" (```ICLR 2020```)
-
-- [**PALM**](PALM) (March 15, 2021): pre-trained models for **natural language generation (NLG)**. We propose a novel scheme that jointly pre-trains an autoencoding and autoregressive language model on a large unlabeled corpus, specifically designed for generating new text conditioned on context. It achieves new SOTA results in several downstream tasks. "[PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation](https://arxiv.org/abs/2004.07159)" (```EMNLP 2020```)
-
-- [**VECO v0**](VECO) (March 15, 2021): pre-trained models for **cross-lingual (x) natural language understanding (x-NLU) and generation (x-NLG)**. VECO (v0) achieves the **new SOTA results** on various cross-lingual understanding tasks of the XTREME benchmark, covering text classification, sequence labeling, question answering, and sentence retrieval.  For cross-lingual generation tasks, it also outperforms all existing cross-lingual models and state-of-the-art Transformer variants on WMT14 English-to-German and English-to-French translation datasets, with gains of up to 1~2 BLEU. “[VECO: Variable Encoder-decoder Pre-training for Cross-lingual Understanding and Generation](https://arxiv.org/abs/2010.16046)" (```ACL 2021```)
-
-- [**StructVBERT**](StructVBERT) (March 15, 2021): pre-trained models for **vision-language understanding**. We propose a new single-stream visual-linguistic pre-training scheme by leveraging multi-stage progressive pre-training and multi-task learning. StructVBERT obtained the 2020 VQA Challenge Runner-up award, and SOTA result on VQA 2020 public Test-standard benchmark (June 2020). "[Talk Slides](StructVBERT/StructVBERT-talk.pdf)" (```CVPR 2020 VQA Challenge Runner-up```).
-
-- [**StructuralLM**](StructuralLM) (March 15, 2021): pre-trained models for **document-image understanding**. We propose a new pre-training approach, StructuralLM, to jointly leverage cell and layout information from scanned documents. The pre-trained StructuralLM achieves new state-of-the-art results in different types of downstream tasks. "[StructuralLM: Structural Pre-training for Form Understanding](https://arxiv.org/abs/2105.11210)" (```ACL 2021```)
-- [**LatticeBERT**](LatticeBERT) (March 15, 2021): we propose a novel pre-training paradigm for Chinese — Lattice-BERT which explicitly incorporates word representations with those of characters, thus can model a sentence in a multi-granularity manner. "[Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models](https://arxiv.org/abs/2104.07204)" (`NAACL 2021`)
-
-- [**SDCUP**](SDCUP) (September 6, 2021): pre-trained models for **table understanding**. We design a schema dependency pre-training objective to impose the desired inductive bias into the learned representations for table pre-training. We further propose a schema-aware curriculum learning approach to alleviate the impact of noise and learn effectively from the pre-training data in an easy-to-hard manner. The experiment results on SQUALL and Spider demonstrate the effectiveness of our pre-training objective and curriculum in comparison to a variety of baselines. "[SDCUP: Schema Dependency Enhanced Curriculum Pre-Training for Table Semantic Parsing]()" (```Under Review```) 
-
-- [**PLUG**](PLUG) (September 1, 2022): large-scale chinese pre-trained model for **understanding and generation**. PLUG (27B) is a large-scale chinese pre-training model for language understanding and generation. The training of PLUG is two-stage, the first stage is a 24-layer [StructBERT](https://arxiv.org/abs/1908.04577) encoder, and the second stage is a 24-6-layer [PALM](https://arxiv.org/pdf/2004.07159.pdf?fbclid=IwAR0BNl1IzR5bhcuEbyfNw2UN7MApHFoFP3BN40FKkW8x3bqolK_HilU293I) encoder-decoder.
-
-- [**mPLUG**](mPLUG) (September 1, 2022): large-scale pre-trained model for vision-language **understanding and generation**. mPLUG is pre-trained end-to-end on large scale image-text pairs with both discriminative and generative objectives. It achieves state-of-the-art results on a wide range of vision-language downstream tasks, including image-captioning, image-text retrieval, visual grounding and visual question answering. [mPLUG: Effective Multi-Modal Learning by Cross-Modal Skip Connections](https://arxiv.org/abs/2205.12005)(```EMNLP 2022```)
+- [**mPLUG-Owl**](https://github.com/X-PLUG/mPLUG-Owl) (April 27, 2023): a new training paradigm with a modularized design for large multi-modal language models. Learns visual knowledge while support multi-turn conversation consisting of different modalities. Observed abilities such as multi-image correlation and scene text understanding, vision-based document comprehension. Release a visually-related instruction evaluation set OwlEval. [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178)
 
 - [**ChatPLUG**](https://github.com/X-PLUG/ChatPLUG) (April 16, 2023): a Chinese open-domain dialogue system for digital human applications that instruction finetunes on a wide range of dialogue tasks in a unified internet-augmented format. Different from other open-domain dialogue models that focus on large-scale pre-training and scaling up model size or dialogue corpus, we aim to build a powerful and practical dialogue system for digital human with diverse skills and good multi-task generalization by internet-augmented instruction tuning. [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human](https://arxiv.org/abs/2304.07849)
 
-- [**mPLUG-Owl**](https://github.com/X-PLUG/mPLUG-Owl) (April 27, 2023): a new training paradigm with a modularized design for large multi-modal language models. Learns visual knowledge while support multi-turn conversation consisting of different modalities. Observed abilities such as multi-image correlation and scene text understanding, vision-based document comprehension. Release a visually-related instruction evaluation set OwlEval. [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178)
+- [**mPLUG**](mPLUG) (September 1, 2022): large-scale pre-trained model for vision-language **understanding and generation**. mPLUG is pre-trained end-to-end on large scale image-text pairs with both discriminative and generative objectives. It achieves state-of-the-art results on a wide range of vision-language downstream tasks, including image-captioning, image-text retrieval, visual grounding and visual question answering. [mPLUG: Effective Multi-Modal Learning by Cross-Modal Skip Connections](https://arxiv.org/abs/2205.12005)(```EMNLP 2022```)
+
+- [**PLUG**](PLUG) (September 1, 2022): large-scale chinese pre-trained model for **understanding and generation**. PLUG (27B) is a large-scale chinese pre-training model for language understanding and generation. The training of PLUG is two-stage, the first stage is a 24-layer [StructBERT](https://arxiv.org/abs/1908.04577) encoder, and the second stage is a 24-6-layer [PALM](https://arxiv.org/pdf/2004.07159.pdf?fbclid=IwAR0BNl1IzR5bhcuEbyfNw2UN7MApHFoFP3BN40FKkW8x3bqolK_HilU293I) encoder-decoder.
+
+- [**SDCUP**](SDCUP) (September 6, 2021): pre-trained models for **table understanding**. We design a schema dependency pre-training objective to impose the desired inductive bias into the learned representations for table pre-training. We further propose a schema-aware curriculum learning approach to alleviate the impact of noise and learn effectively from the pre-training data in an easy-to-hard manner. The experiment results on SQUALL and Spider demonstrate the effectiveness of our pre-training objective and curriculum in comparison to a variety of baselines. "[SDCUP: Schema Dependency Enhanced Curriculum Pre-Training for Table Semantic Parsing]()" (```Under Review```) 
+
+- [**LatticeBERT**](LatticeBERT) (March 15, 2021): we propose a novel pre-training paradigm for Chinese — Lattice-BERT which explicitly incorporates word representations with those of characters, thus can model a sentence in a multi-granularity manner. "[Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models](https://arxiv.org/abs/2104.07204)" (`NAACL 2021`)
+
+
+- [**StructuralLM**](StructuralLM) (March 15, 2021): pre-trained models for **document-image understanding**. We propose a new pre-training approach, StructuralLM, to jointly leverage cell and layout information from scanned documents. The pre-trained StructuralLM achieves new state-of-the-art results in different types of downstream tasks. "[StructuralLM: Structural Pre-training for Form Understanding](https://arxiv.org/abs/2105.11210)" (```ACL 2021```)
+
+- [**StructVBERT**](StructVBERT) (March 15, 2021): pre-trained models for **vision-language understanding**. We propose a new single-stream visual-linguistic pre-training scheme by leveraging multi-stage progressive pre-training and multi-task learning. StructVBERT obtained the 2020 VQA Challenge Runner-up award, and SOTA result on VQA 2020 public Test-standard benchmark (June 2020). "[Talk Slides](StructVBERT/StructVBERT-talk.pdf)" (```CVPR 2020 VQA Challenge Runner-up```).
+
+- [**VECO v0**](VECO) (March 15, 2021): pre-trained models for **cross-lingual (x) natural language understanding (x-NLU) and generation (x-NLG)**. VECO (v0) achieves the **new SOTA results** on various cross-lingual understanding tasks of the XTREME benchmark, covering text classification, sequence labeling, question answering, and sentence retrieval.  For cross-lingual generation tasks, it also outperforms all existing cross-lingual models and state-of-the-art Transformer variants on WMT14 English-to-German and English-to-French translation datasets, with gains of up to 1~2 BLEU. “[VECO: Variable Encoder-decoder Pre-training for Cross-lingual Understanding and Generation](https://arxiv.org/abs/2010.16046)" (```ACL 2021```)
+
+- [**PALM**](PALM) (March 15, 2021): pre-trained models for **natural language generation (NLG)**. We propose a novel scheme that jointly pre-trains an autoencoding and autoregressive language model on a large unlabeled corpus, specifically designed for generating new text conditioned on context. It achieves new SOTA results in several downstream tasks. "[PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation](https://arxiv.org/abs/2004.07159)" (```EMNLP 2020```)
+
+- [**StructBERT**](StructBERT) (March 15, 2021): pre-trained models for **natural language understanding (NLU)**. We extend BERT to a new model, StructBERT, by incorporating language structures into pre-training. Specifically, we pre-train StructBERT with two auxiliary tasks to make the most of the sequential order of words and sentences, which leverage language structures at the word and sentence levels, respectively. "[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)" (```ICLR 2020```)
 
 ## Fine-tuning Methods
 - [**ChildTuning**](ChildTuning) (October 25, 2021): To mitigate the overfitting problem and improve generalization for fine-tuning large-scale PLMs, we
