@@ -61,8 +61,14 @@ For information on PLUG finetune, you can visit https://github.com/alibaba/Alice
 3、您承诺您在使用模型能力过程中提供的素材等数据，是您通过合法途径取得并获得充分授权对其进行使用的。您承诺使用的任何素材、相关数据、对模型能力的使用及使用能力所产生的任何成果，均未侵犯任何第三方的合法权益。如有第三方基于侵犯著作权、侵犯第三人之权益或违反中国法律法规或其他适用的法律等原因而向提起索赔、诉讼或可能向提起诉讼，则您应赔偿因此承担的所有费用或所有损失。
 
 ## Citation
-If you use our work, please cite the follow papers:
+If you find our project useful, please cite the repo and papers as follows:
 ```
+@software{damo2022plug,
+author = {Wei Wang and Chenliang Li and Bin Bi and Ming Yan and Songfang Huang and Fei Huang and Luo Si},
+title = {PLUG：Pre-training for Language Understanding and Generation},
+year = {2022},
+url = {https://github.com/alibaba/AliceMind/tree/main/PLUG}
+
 @article{wang2019structbert,
   title={Structbert: Incorporating language structures into pre-training for deep language understanding},
   author={Wang, Wei and Bi, Bin and Yan, Ming and Wu, Chen and Bao, Zuyi and Xia, Jiangnan and Peng, Liwei and Si, Luo},
