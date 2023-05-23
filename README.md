@@ -6,8 +6,8 @@ The family of AliceMind:
 * Pre-trained Models:
      * A new training paradigm with a **modularized design** for large multi-modal language models: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl)
      * Large-scale Chinese open-domain dialogue system for digital human: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG)
-     * A Modularized Multi-modal Foundation Model Across Text, Image and Video: [mPLUG-2](https://github.com/X-PLUG/mPLUG-2)(```ICML2023```)
-     * Large-scale vision-language understanding and generation model: [mPLUG](https://github.com/alibaba/AliceMind/tree/main/mPLUG)
+     * A Modularized Multi-modal Foundation Model Across Text, Image and Video: [mPLUG-2](https://github.com/X-PLUG/mPLUG-2)(```ICML 2023```)
+     * Large-scale vision-language understanding and generation model: [mPLUG](https://github.com/alibaba/AliceMind/tree/main/mPLUG)(```EMNLP 2022```)
      * Large-scale chinese understanding and generation model: [PLUG](https://github.com/alibaba/AliceMind/tree/main/PLUG)
      * Pre-training table model: [SDCUP](https://github.com/alibaba/AliceMind/tree/main/SDCUP) (```Under Review```)
      * Chinese language understanding model with multi-granularity inputs: [LatticeBERT](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) (```NAACL 2021```)
