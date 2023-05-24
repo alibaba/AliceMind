@@ -25,6 +25,7 @@ The family of AliceMind:
 ## News
 
 - **April 27, 2023: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl), a new training paradigm with a modularized design for large multi-modal language models released.**
+- **April 25, 2023: [mPLUG-2](https://github.com/X-PLUG/mPLUG-2) were accepted by ICML 2023.
 - **April 16, 2023: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG), the Chinese open-domain dialogue system for digital human applications released.**
 - October, 2022: [mPLUG](https://arxiv.org/abs/2205.12005) were accepted by EMNLP 2022.
 - May, 2022: [PST](https://arxiv.org/abs/2205.11005) were accepted by IJCAI 2022.
