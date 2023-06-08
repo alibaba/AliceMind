@@ -4,6 +4,7 @@ This repository provides pre-trained encoder-decoder models and its related opti
 
 The family of AliceMind:
 * Pre-trained Models:
+     * Release the first and largest public Chinese Video-language pretraining dataset and benchmarks named [Youku-mPLUG](https://github.com/X-PLUG/Youku-mPLUG), and the Chinese video large language model named [mPLUG-video](https://github.com/X-PLUG/Youku-mPLUG)
      * A new training paradigm with a **modularized design** for large multi-modal language models: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl)
      * Large-scale Chinese open-domain dialogue system for digital human: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG)
      * A Modularized Multi-modal Foundation Model Across Text, Image and Video: [mPLUG-2](https://github.com/X-PLUG/mPLUG-2)(```ICML 2023```)
@@ -23,7 +24,7 @@ The family of AliceMind:
      * Language model compression methods [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) (```AAAI 2022```)
 
 ## News
-
+- **June 8, 2023: [Youku-mPLUG](https://github.com/X-PLUG/Youku-mPLUG), release the first and largest public Chinese Video-language pretraining dataset and benchmarks, and the Chinese video large language model named [mPLUG-video](https://github.com/X-PLUG/Youku-mPLUG).**
 - **April 27, 2023: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl), a new training paradigm with a modularized design for large multi-modal language models released.**
 - **April 25, 2023: [mPLUG-2](https://github.com/X-PLUG/mPLUG-2) were accepted by ICML 2023.
 - **April 16, 2023: [ChatPLUG](https://github.com/X-PLUG/ChatPLUG), the Chinese open-domain dialogue system for digital human applications released.**
