@@ -26,7 +26,7 @@ The family of AliceMind:
      * Language model compression methods [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) (```AAAI 2022```)
 
 ## News
-- **November 9, 2023: [mPLUG-Owl2]([https://github.com/X-PLUG/mPLUG-DocOwl](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2)), the first multimodal large language model for enhancing LLM and MLLM through modal collaboration.**
+- **November 9, 2023: [mPLUG-Owl2]([https://github.com/X-PLUG/mPLUG-DocOwl](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2), the first multimodal large language model for enhancing LLM and MLLM through modal collaboration.**
 - **July 7, 2023: [mPLUG-DocOwl](https://github.com/X-PLUG/mPLUG-DocOwl), the first ocr-free multimodal large language model for universal document understanding.**
 - **June 8, 2023: [Youku-mPLUG](https://github.com/X-PLUG/Youku-mPLUG), release the first and largest public Chinese Video-language pretraining dataset and benchmarks, and the Chinese video large language model named [mPLUG-video](https://github.com/X-PLUG/Youku-mPLUG).**
 - **April 27, 2023: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl), a new training paradigm with a modularized design for large multi-modal language models released.**
