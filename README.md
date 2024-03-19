@@ -4,7 +4,7 @@ This repository provides pre-trained encoder-decoder models and its related opti
 
 The family of AliceMind:
 * Pre-trained Models:
-     * Release the first multimodal large language model for enhancing LLM and MLLM through modal collaboration: [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2)
+     * Release the first multimodal large language model for enhancing LLM and MLLM through modal collaboration: [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2)(```CVPR 2024```)
      * Release the first ocr-free multimodal large language model for universal document understanding: [mPLUG-DocOwl](https://github.com/X-PLUG/mPLUG-DocOwl)(```EMNLP 2023```)
      * Release the first and largest public Chinese Video-language pretraining dataset and benchmarks: [Youku-mPLUG](https://github.com/X-PLUG/Youku-mPLUG), and the Chinese video large language model named [mPLUG-video](https://github.com/X-PLUG/Youku-mPLUG)
      * A new training paradigm with a **modularized design** for large multi-modal language models: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl)
@@ -26,7 +26,7 @@ The family of AliceMind:
      * Language model compression methods [ContrastivePruning](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning) (```AAAI 2022```)
 
 ## News
-- **November 9, 2023: [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2), the first multimodal large language model for enhancing LLM and MLLM through modal collaboration.**
+- **November 9, 2023: [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2), the first multimodal large language model for enhancing LLM and MLLM through modal collaboration, were accepted by CVPR 2024.**
 - **July 7, 2023: [mPLUG-DocOwl](https://github.com/X-PLUG/mPLUG-DocOwl), the first ocr-free multimodal large language model for universal document understanding, were accepted by EMNLP 2023.**
 - **June 8, 2023: [Youku-mPLUG](https://github.com/X-PLUG/Youku-mPLUG), release the first and largest public Chinese Video-language pretraining dataset and benchmarks, and the Chinese video large language model named [mPLUG-video](https://github.com/X-PLUG/Youku-mPLUG).**
 - **April 27, 2023: [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl), a new training paradigm with a modularized design for large multi-modal language models released.**
